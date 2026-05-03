@@ -25,3 +25,17 @@ scrollUpButton.addEventListener('click', () => {
     // Scroll up to the header
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+// social media 
+const socialMedia={
+    facebook:'https://www.facebook.com/profile.php?id=100087613844175&mibextid=ZbWKwL',
+    twitter:'https://twitter.com/alshimaajamal?t=7mhWIN_LGvgwdAaI2xmLAQ&s=08',
+    linkedin:'https://www.linkedin.com/in/al-shimaa-jamal-84a79b238 '
+}
+console.log(socialMedia)
+if (socialMedia){
+    for(i= 0 ; i>= socialMedia.length ; i++) {
+        console.log(i)
+        console.log(socialMedia)
+        console.log(hi)
+    }
+}
